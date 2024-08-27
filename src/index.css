@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    /* Making the background color of the scrollbar as same as that of the body */
+    background-color: black;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* Changing the background-color of the thumb of the scrollbar */
+    background-color: rgb(18, 22, 254);
+    /* Setting the height of the thumb of the scrollbar */
+    height: 100px;
+    border-radius: 5px;
+}
